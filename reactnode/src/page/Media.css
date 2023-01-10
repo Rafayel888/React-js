@@ -1,0 +1,109 @@
+@media (max-width: 576px) {
+  /* Modal */
+  .mod {
+    width: 310px;
+    height: 270px;
+    
+  }
+  .mod h5 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  
+  /* --------Main-------- */
+  .App {
+    width: 576px;
+  }
+  #searchBar {
+    font-family: gabriola;
+    font-size: 20px;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    width: 576px;
+  }
+  .d01 {
+    width: 576px;
+    position: relative;
+  }
+
+  .d01::after {
+    content: "🔍";
+    position: absolute;
+    top: 57px;
+  }
+  #main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr 0fr);
+    width: 576px;
+    margin: 0 auto;
+    margin: auto;
+  }
+  #main > .child {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+  #main > .child {
+    width: 135px;
+    height: 110px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 12%;
+    text-align: start;
+    font-size: 10px;
+  }
+  #main > .child div {
+    display: inline-block;
+  }
+  #main > .child p {
+    font-size: 8px;
+  }
+  #main > .child h6 {
+    font-size: 10px;
+		padding-top: 10px;
+  }
+  #main > .child p {
+    font-size: 8px;
+  }
+  #main > .child img {
+    width: 10px;
+  }
+  /* ------Modal-------- */
+  .img0{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -18px;
+	right: 155px;
+}
+	#main>.child div {
+	display: inline-block;
+	margin-right: 3px;
+}
+.tabl {
+  width: 100%;
+	height: 400px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+table{
+	width: 300px;
+}
+tr,
+.td {
+  width: 100%;
+  height: 4px;
+  font-size: 8px;
+	padding-left: 28px;
+	padding-top: 8px;
+}
+th{
+	padding-top: 10px;
+}
+.t1{
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+
+}
